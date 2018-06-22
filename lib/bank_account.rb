@@ -29,6 +29,6 @@ class BankAccount
 end
 
 emma = BankAccount.new("Emma")
-faith = BankAccount.new("Emma")
+faith = BankAccount.new("Faith")
 
 puts emma.display_balance
