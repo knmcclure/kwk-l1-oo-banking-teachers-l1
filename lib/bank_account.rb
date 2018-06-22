@@ -31,4 +31,3 @@ end
 emma = BankAccount.new("Emma")
 faith = BankAccount.new("Faith")
 
-puts emma.display_balance
