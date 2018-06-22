@@ -1,4 +1,4 @@
-require_relative "bank_account"
+require_relative 'bank_account'
 
 class Transfer
   attr_reader :amount, :sender, :receiver
