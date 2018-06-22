@@ -41,4 +41,7 @@ class Transfer
   end
 end
 
+emma = BankAccount.new("Emma")
+faith = BankAccount.new("Faith")
+
 transfer_1 = Transfer.new(emma, faith, 200)
