@@ -40,3 +40,5 @@ class Transfer
     "Transaction rejected. Please check your account balance."
   end
 end
+
+transfer_1.new(emma, faith, $200)
