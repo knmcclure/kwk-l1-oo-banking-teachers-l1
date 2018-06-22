@@ -27,3 +27,6 @@ class BankAccount
   end
 
 end
+
+emma = BankAccount.new("Emma")
+faith = BankAccount.new("Emma")
