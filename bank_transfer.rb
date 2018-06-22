@@ -52,7 +52,7 @@ class Transfer
   def execute_transaction
     if valid? && sender.balance > amount && self.status == "pending"
       sender.withdraw(amount) 
-      receiver.balance += amount
+      receiver.deposit(amount)
       self.status = "complete"
     else
       reject_transfer
