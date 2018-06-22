@@ -12,7 +12,9 @@ class BankAccount
     self.balance += deposit_amount
   end
   
-  def 
+  def withdraw(withdrawal_amount)
+    self.balance -= withdrawal_amount
+  end 
 
   def display_balance
     "Your Balance is $#{balance}."
@@ -49,7 +51,7 @@ class Transfer
 
   def execute_transaction
     if valid? && sender.balance > amount && self.status == "pending"
-      sender.balance -= amount
+      sender.withdraw(amount) 
       receiver.balance += amount
       self.status = "complete"
     else
