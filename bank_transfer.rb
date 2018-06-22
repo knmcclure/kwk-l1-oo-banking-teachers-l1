@@ -38,7 +38,10 @@ class Transfer
   end
 
   def valid?
-    sender.valid? && receiver.valid?
+    if sender.valid? && receiver.valid?
+      puts "valid"
+    else 
+      puts "void"
   end
 
   def execute_transaction
