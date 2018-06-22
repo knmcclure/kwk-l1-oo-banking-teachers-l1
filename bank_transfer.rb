@@ -42,6 +42,7 @@ class Transfer
       puts "valid"
     else 
       puts "void"
+    end 
   end
 
   def execute_transaction
