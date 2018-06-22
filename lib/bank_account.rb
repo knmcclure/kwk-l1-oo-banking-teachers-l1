@@ -30,3 +30,5 @@ end
 
 emma = BankAccount.new("Emma")
 faith = BankAccount.new("Emma")
+
+puts emma.display_balance
