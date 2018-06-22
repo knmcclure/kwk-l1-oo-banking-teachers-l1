@@ -71,3 +71,4 @@ emma = BankAccount.new("Emma")
 faith = BankAccount.new("Faith")
 
 transfer_1 = Transfer.new(emma, faith, 200)
+transfer_1.valid?
